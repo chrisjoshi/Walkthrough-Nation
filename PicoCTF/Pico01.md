@@ -6,11 +6,11 @@ Hi, intrepid investigator! 📄🔍 You've stumbled upon a peculiar PDF filled w
 
 Find the PDF file here: **Hidden Confidential Document** and uncover the flag within the metadata.
 
-## 2. Step 1 — Inspecting the File With `exiftool`
+## Step 1 — Inspecting the File With `exiftool`
 
-You started by running  ``exiftool``, which is a common metadata inspection tool. It can read metadata fields from many file formats (images, documents, etc.).
+We started by running  ``exiftool``, which is a common metadata inspection tool. It can read metadata fields from many file formats (images, documents, etc.).
 
-The command you used:
+The command we used:
 
 ```
 exiftool <filename>
@@ -18,24 +18,25 @@ exiftool <filename>
 
 When the output appeared, one important metadata field stood out — the **Author** field. Instead of a normal name, it contained a long string which showed signs of being encrypted.
 
-![Pico Image 1](./PicoCTF/Media/Picolevel0101.png)
+![Pico Image 1](./Media/Picolevel0101.png
+)
 
 
 This clearly suggested the hidden flag (or part of it) was encoded inside the metadata.
 
 ---
 
-## 3. Step 2 — Copying the Author Metadata Value
+## Step 2 — Copying the Author Metadata Value
 
 Copy the entire string and move on to the next step since nothing of high relevance was there in the other metadata fields pointing towards an anomaly that was supposed to be assessed.  
 
 ---
 
-## 4. Step 3 — Decoding String on CyberChef
+## Step 3 — Decoding String on CyberChef
 
 Next, we open **CyberChef**, which is an online data transformation tool useful for encoding/decoding tasks.
 
-### Steps You Followed
+### Steps to be Followed
 
 1. Open CyberChef.
 2. Paste the string from the Author field.
@@ -44,13 +45,13 @@ Next, we open **CyberChef**, which is an online data transformation tool useful 
 
 CyberChef output the decoded text — which was the **actual PicoCTF flag**.
 
-![Pico Image 2](./PicoCTF/Media/Picolevel0102.png)
+![Pico Image 2](./Media/Picolevel0102.png)
 
 The process required no extra manipulation: simple Base64 decoding was enough.
 
 ---
 
-## 5. Final Flag
+## Final Flag
 
 After decoding, the output revealed the full challenge flag in the standard PicoCTF format:
 
@@ -60,7 +61,7 @@ picoCTF{...}
 
 ---
 
-## 6. Summary
+## Summary
 
 We solved the challenge in the following steps:
 
