@@ -22,7 +22,7 @@ This reveals multiple repeated entries of four distinct fragments:
 
 These fragments appear throughout the log but in the **same consistent order**, only repeated due to logging.  
 
-![Pico Image](PicoCTF/Media/Picolevel0201.png)
+![Pico Image](./Media/Picolevel0201.png)
 
 ---
 
