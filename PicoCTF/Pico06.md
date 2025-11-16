@@ -1,4 +1,4 @@
-# PicoCTF Walkthrough: Corrupted File — Detailed Walkthrough
+# PicoCTF Walkthrough: Corrupted File 
 
 ## Description of the Challenge
 
@@ -71,12 +71,6 @@ The image displays the final PicoCTF flag.
 ```
 picoCTF{r3st0r1ng_th3_by73s_ef8d86c0}
 ```
-
----
-
-## Final Flag
-
-``picoCTF{r3st0r1ng_th3_by73s_ef8d86c0}``
 
 ---
 
