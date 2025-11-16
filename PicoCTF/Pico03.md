@@ -6,6 +6,10 @@ You're given a JPG image that contains hidden data. By inspecting the metadata a
 
 ---
 
+#### FIle provided:
+
+![Pico source](./Media/Picolevel03010.jpg)
+
 ## Step 1 — Checking the Metadata With `exiftool`
 
 We begin by inspecting the JPG image:
