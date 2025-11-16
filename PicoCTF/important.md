@@ -10,7 +10,13 @@ Example:
 ```bash
 wget https://exampleurl.com/challenge01.zip
 ```
+Once you’ve downloaded the necessary files using wget, you can follow along from the next step in each challenge.
 
 ---
 
-Once you’ve downloaded the necessary files using wget, you can follow along from the next step in each challenge.
+## References
+
+- The challenges themselves are available on the [picoCTF website](https://play.picoctf.org/practice) which can be accessed once you register on their website and are done exploring.
+- Another important website that we will use for encryption of flags and other purposes will be [Cyber Chef](https://cyberchef.org/). Since this will be a non serious series of challenges on easy mode. We will use automated way of decryption for seamless action and longer hours of focus on the problems themselves.
+
+---
